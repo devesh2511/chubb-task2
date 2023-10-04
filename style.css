@@ -1,0 +1,426 @@
+body {
+    background-color: #f4f3ed;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+    margin: 0px;
+    font-family: acumin-pro-wide, sans-serif;
+}
+
+.home1 {
+    background-color: #435259;
+    padding: 30px 70px 70px 70px;
+}
+
+.navbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Tahoma, sans-serif;
+    color: #d1b980;
+}
+
+.nav1 {
+    padding: 1px 50px 1px 0px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #d1b980;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    color: #d1b980;
+    line-height: 1.4em;
+}
+
+li {
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+
+.home1 a{
+    text-decoration: none;
+    color: #d1b980;
+}
+
+.main1 {
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, serif;
+    margin: 20px 0px 20px 0px;
+}
+
+.body1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 80px 0px 0px 0px;
+}
+
+.head1 {
+    font-size: 60px;
+    min-width: 40%;
+    color: white;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    color: #f5f4f0;
+    margin: 20px 0px 0px 0px
+}
+
+.head2 {
+    margin: 0px 0px 20px 50px;
+    font-size: 22px;
+    color: white;
+    font-family: abril-text, serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.subsc {
+    margin: 0px 0px 20px 50px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.btn2 {
+    text-transform: uppercase;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    background: #ab9768;
+    border: none;
+    color: #fff;
+    padding: 11px 12px;
+    cursor: pointer;
+    float: right;
+    width: 120px;
+    height: 40px;
+}
+
+.img-class {
+    margin: 50px 0px 20px 50px;
+    padding: 0px 50px 0px 50px;
+}
+
+.img1 {
+    height: 375px;
+    width: 250px;
+}
+
+.body2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 20px;
+}
+
+.emailinput {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5em;
+    float: left;
+    height: 40px;
+    opacity: 1;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+}
+
+.readmore {
+    text-transform: uppercase;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    color: #d1b980;
+    line-height: 1.4em;
+}
+
+.emailinput:focus {
+    outline: none;
+}
+
+.lbl {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 10px 64px;
+}
+
+.playlist-module , .group-aside-text-wrapper{
+    margin-top: 30px;
+    height: 100%;
+    position: relative;
+}
+.playlist-module{
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.book-releases {
+    background: #e4e3de;
+    margin: 150px 0 72px;
+    padding: 80px 40px;
+}
+
+.book-releases h2, .book-releases h3 {
+    font-family: acumin-pro-wide,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    color: #ab9768;
+    margin-left: 24px;
+    margin-bottom: 48px;
+}
+
+.aside-text {
+    top: 0;
+    left: auto;
+    right: 100%;
+    text-transform: uppercase;
+    font-family: acumin-pro-wide,sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    color: #ab9768;
+    position: absolute;
+    white-space: nowrap;
+    -webkit-transform: rotate(270deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: rotate(270deg);
+    -moz-transform-origin: right top;
+    -ms-transform: rotate(270deg);
+    -ms-transform-origin: right top;
+    -o-transform: rotate(270deg);
+    -o-transform-origin: right top;
+    transform: rotate(270deg);
+    transform-origin: right top;
+}
+
+.cruel {
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: -.01em;
+    line-height: 1.1666666667em;
+    color: #435259;
+    word-wrap: break-word;
+    margin: 0px;
+}
+
+.byline {
+    text-transform: uppercase;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    display: block;
+    margin: 24px 0 32px;
+}
+
+.playlist-description {
+    float: left;
+    margin-left: 9%;
+    width: 50%;
+}
+
+.playlist-description p{
+    font-family: acumin-pro-wide, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 24px;
+    color: #435259
+}
+
+.cta{
+    font-family: acumin-pro-wide, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -.015em;
+    line-height: 1.4em;
+    text-transform: none;
+    border-bottom: 1px solid #ab9768;
+    color: #ab9768;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+}
+
+.playlist-list{
+    background: #ebeae6;
+    color: #435259;
+    float: right;
+    margin-top: 16px;
+    padding: 32px;
+
+}
+
+.playlist-list ol{
+    list-style: none;
+    counter-reset: playlist;
+    margin: 0;
+    padding: 0;
+}
+
+.playlist-list ol li{
+    counter-increment: playlist;
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.playlist-list ol li:before{
+    background: #fff;
+    color: #ab9768;
+    content: counter(playlist);
+    display: block;
+    font-weight: 200;
+    font-size: 48px;
+    font-family: acumin-pro-wide,sans-serif;
+    flex-shrink: 0;
+    margin-right: 32px;
+    padding-top: 12px;
+    height: 80px;
+    line-height: 1;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playlist-list a{
+    font-family: acumin-pro-wide,sans-serif;
+    display: block;
+    padding: 4px 0;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #435259;
+}
+
+.playlist-list strong{
+    font-family: acumin-pro-wide,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    line-height: 1.4em;
+    text-transform: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.playlist-list em{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.books{
+    margin-top: 150px;
+}
+
+.book-releases h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: .15em;
+    color: #ab9768;
+    margin-left: 24px;
+    margin-bottom: 48px;
+    font-family: acumin-pro-wide,sans-serif;
+    font-weight: 500;
+}
+
+.book-releases-grid {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0px 25px 0px 25px;
+}
+
+.book-info {
+    display: block;
+    margin: 0 24px;
+}
+
+.book-releases h4{
+    font-size: 18px;
+    letter-spacing: -.015em;
+    line-height: 1.4em;
+    text-transform: none;
+    font-size: 90%;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: 8px;
+}
+.book-cover {
+    display: block;
+    margin: 0 24px 24px;
+    align-self: end;
+    height: 10%;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 850px){
+    .main1 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 620px){
+    .nav2 {
+        display: none;
+    }
+}
